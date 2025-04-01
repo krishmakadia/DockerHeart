@@ -1,0 +1,25 @@
+# Ignore Python virtual environments
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore the VS Code settings folder
+.vscode/
+
+# Ignore system files for Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other editor/IDE files (e.g., JetBrains, etc.)
+.idea/
+
+# Ignore temporary files created by the editor
+*.swp
