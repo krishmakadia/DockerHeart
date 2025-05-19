@@ -11,8 +11,8 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 sh '''
-                pip install --upgrade pip
-                pip install -r requirements.txt
+                C:/ProgramData/anaconda3/python.exe -m pip install --upgrade pip
+                C:/ProgramData/anaconda3/python.exe -m pip install -r requirements.txt
                 '''
             }
         }
